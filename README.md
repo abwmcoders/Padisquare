@@ -1,7 +1,6 @@
 # Padisquare
 
-
-A modern Flutter-based mobile application utilizing the latest mobile development technologies and tools for building responsive cross-platform applications.
+A simple Flutter app for browsing vendors and their products.
 
 ## 📋 Prerequisites
 
@@ -25,17 +24,18 @@ flutter run
 ## 📁 Project Structure
 
 ```
-flutter_app/
+padisquare/
 ├── android/            # Android-specific configuration
 ├── ios/                # iOS-specific configuration
 ├── lib/
-│   ├── core/           # Core utilities and services
-│   │   └── utils/      # Utility classes
-│   ├── presentation/   # UI screens and widgets
-│   │   └── splash_screen/ # Splash screen implementation
-│   ├── routes/         # Application routing
-│   ├── theme/          # Theme configuration
-│   ├── widgets/        # Reusable UI components
+|    └── src/
+│       ├── core/           # Core utilities and services
+│       │   └── utils/      # Utility classes
+│       ├── presentation/   # UI screens and widgets
+│       │   └── splash_screen/ # Splash screen implementation
+│       ├── routes/         # Application routing
+│       ├── theme/          # Theme configuration
+│       ├── widgets/        # Reusable UI components
 │   └── main.dart       # Application entry point
 ├── assets/             # Static assets (images, fonts, etc.)
 ├── pubspec.yaml        # Project dependencies and configuration
